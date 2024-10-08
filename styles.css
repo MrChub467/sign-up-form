@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  border: 5px solid red;
+}
+
+.side-panel {
+  flex-basis: 33%;
+  background: url(./img/forest.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.form-panel {
+  flex-basis: 66%;
+  
+}
+
+
+
+
+.logo {
+  width: 33%;
+  padding: 2rem;
+  position: absolute;
+  display: flex;
+  top: 25%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.logo > p {
+  color: white;
+  font-size: 20rem;
+  
+}
+
+
+.img-credits {
+  
+  
+}
+
+.img-credits p {
+  font-size: 3rem;
+  color: white;
+}
